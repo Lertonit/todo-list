@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+input, select, button {
+    margin: 5px;
+}
+
+#TaskList {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.task-item {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    position: relative;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+
+.task-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.task-content {
+    margin-bottom: 10px;
+}
+
+.task-details {
+    font-size: 12px;
+}
+
+.comment-section {
+    margin-top: 10px;
+}
+
+.comment-input {
+    width: calc(100% - 100px);
+    margin-right: 10px;
+}
+
+.task-comments {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.complete-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #4CAF50; /* Цвет кнопки */
+    color: white; /* Цвет текста */
+    border: none; /* Убираем границы */
+    border-radius: 5px; /* Закругление углов */
+    cursor: pointer; /* Курсор в виде руки */
+    padding: 5px 10px; /* Отступы внутри кнопки */
+}
+
+.complete-btn:hover {
+    background-color: #45a049; 
+}.complete-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #4CAF50; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    padding: 5px 10px; 
+    min-width: 50px;
+    min-height: 40px;
+}
+
+.complete-btn:hover {
+    background-color: #45a049; 
+}
